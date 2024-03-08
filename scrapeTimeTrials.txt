@@ -1,0 +1,116 @@
+1.  with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+    response = requests.get(url, headers=headers, timeout=15)
+                                                                                                    
+    Successfully accessed 768 websites.                                                                 ### Best number of scraped websites ###
+    Failed to access 229 websites.
+    Time taken: 107 minutes and 51 seconds.
+
+
+
+
+2.  with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    response = requests.get(url, headers=headers, timeout=10)
+
+    Successfully accessed 748 websites.
+    Failed to access 249 websites.
+    Time taken: 35 minutes and 39 seconds.
+
+
+
+
+3.  with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    response = requests.get(url, headers=headers, timeout=5)
+
+    Successfully accessed 749 websites.
+    Failed to access 248 websites.
+    Time taken: 27 minutes and 27 seconds.
+
+
+
+
+4.  with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+    response = requests.get(url, headers=headers, timeout=10)
+
+    Successfully accessed 743 websites.
+    Failed to access 254 websites.
+    Time taken: 27 minutes and 6 seconds.
+
+
+
+
+5.  with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+    response = requests.get(url, headers=headers, timeout=10)
+
+    Successfully accessed 645 websites.
+    Failed to access 352 websites.
+    Time taken: 25 minutes and 56 seconds.
+
+
+
+
+6.  with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    response = requests.get(url, headers=headers, timeout=3)
+
+    Successfully accessed 742 websites.
+    Failed to access 255 websites.
+    Time taken: 19 minutes and 17 seconds.
+
+
+
+
+7.  with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+    response = requests.get(url, headers=headers, timeout=3)
+
+    Successfully accessed 746 websites.
+    Failed to access 251 websites.
+    Time taken: 18 minutes and 37 seconds.
+
+
+
+
+8.  with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+    response = requests.get(url, headers=headers, timeout=2)
+
+    Successfully accessed 717 websites.
+    Failed to access 280 websites.
+    Time taken: 17 minutes and 15 seconds.
+
+
+
+
+9.  with concurrent.futures.ThreadPoolExecutor(max_workers=25) as executor:
+    response = requests.get(url, headers=headers, timeout=3)
+
+    Successfully accessed 728 websites.
+    Failed to access 269 websites.
+    Time taken: 16 minutes and 54 seconds.
+
+
+
+
+10. with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+    response = requests.get(url, headers=headers, timeout=1)
+
+    Successfully accessed 628 websites.
+    Failed to access 369 websites.
+    Time taken: 16 minutes and 33 seconds.
+
+
+
+
+11. with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+    response = requests.get(url, headers=headers, timeout=3)
+
+    Successfully accessed 750 websites.                                                          ### Best time and number of scraped websites ###
+    Failed to access 247 websites.  
+    Time taken: 15 minutes and 56 seconds.
+
+
+
+
+12. with concurrent.futures.ThreadPoolExecutor(max_workers=35) as executor:
+    response = requests.get(url, headers=headers, timeout=3)
+
+    Successfully accessed 651 websites.                                                          ### Best time ###
+    Failed to access 346 websites.
+    Time taken: 14 minutes and 41 seconds.
